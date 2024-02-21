@@ -1,0 +1,5 @@
+# ninja log v5
+9	1126	730202897	CMakeFiles/yolov8ncnn.dir/yolov8ncnn.cpp.o	b6f75d01df5622cb
+0	1148	730202897	CMakeFiles/yolov8ncnn.dir/ndkcamera.cpp.o	6e944317040824ea
+5	1257	730202898	CMakeFiles/yolov8ncnn.dir/yolo.cpp.o	546431854aedaf20
+1258	1563	730202898	F:/detectick_app (2)/detectick_app/app/build/intermediates/cmake/release/obj/arm64-v8a/libyolov8ncnn.so	af0b7aa58bf4767f

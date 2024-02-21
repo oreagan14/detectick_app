@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@color/white">
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed"
+            app:contentScrim="@color/teal_200">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/dr_img"
+                android:scaleType="centerInside"
+                app:layout_collapseMode="parallax"/>
+
+
+            />
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                app:layout_collapseMode="pin"/>
+
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/rs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dermacentor Reticulatus"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:justificationMode="inter_word"/>
+
+            <TextView
+                android:id="@+id/rs_def"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dermacentor reticulatus, also known as the ornate cow tick, ornate dog tick, meadow tick, and marsh tick,is a species of tick from the family Ixodidae. It is the type species for the genus Dermacentor. D. reticulatus is an ornate tick. The female varies in size from 3.8–4.2 mm (unfed) to 10 mm when engorged after feeding. The unfed male is 4.2–4.8 mm long. D. reticulatus is found in Europe and Western Asia,  generally in wooded areas"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:justificationMode="inter_word"/>
+
+
+            <TextView
+                android:id="@+id/rs_disease_humans"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Disease that may transfer to humans:"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:justificationMode="inter_word"/>
+
+            <TextView
+                android:id="@+id/encephalitis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Tick-borne encephalitis (TBE) - is a significant cause of viral infections affecting the central nervous system, primarily transmitted by ticks during outdoor activities in forested areas. While most infections are asymptomatic, clinical illness can manifest with cold symptoms and fever. In some cases, a second phase may occur, characterized by high fever and central nervous system involvement, leading to potential paralysis, permanent damage, or death. The severity increases with age, but fatalities have been reported across all age groups. Source: https://www.who.int/health-topics/tick-borne-encephalitis"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:justificationMode="inter_word"/>
+
+            <TextView
+                android:id="@+id/rockymountain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. Lyme disease - arises from the presence of the bacteria Borrelia burgdorferi or, infrequently, Borrelia mayonii. The transmission to humans occurs through bites from ticks, particularly the infected blacklegged variety. Common indications of Lyme disease encompass fever, headache, fatigue, and the distinctive erythema migrans skin rash. In the absence of timely intervention, the infection can disseminate to affect joints, the heart, and the nervous system. Diagnosis hinges on recognizing symptoms, conducting physical examinations (notably assessing for the characteristic rash), and considering potential exposure to ticks carrying the infectious agent. It is crucial to promptly identify and address Lyme disease to mitigate the risk of complications. Source: https://www.cdc.gov/lyme/index.html"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:justificationMode="inter_word"/>
+
+
+            <TextView
+                android:id="@+id/rs_disease_animals"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Disease that may transfer to animals:"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:justificationMode="inter_word"/>
+
+            <TextView
+                android:id="@+id/ehrlichiosis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="1. Canine ehrlichiosis - a tick-borne ailment in dogs, results from infection with the bacteria Ehrlichia canis. Dogs contract E. canis through bites from infected ticks, primarily the brown dog tick (Rhipicephalus sanguineus). This intracellular bacterial infection primarily targets immune system cells. Infected dogs may exhibit various clinical signs or, in some cases, remain asymptomatic. The disease progresses through three phases: acute, subclinical, and chronic."
+                android:textSize="15dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:justificationMode="inter_word"/>
+
+            <TextView
+                android:id="@+id/ehrlichiosis2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="During the acute phase, symptoms include fever, lethargy, enlarged lymph nodes, anorexia, weight loss, nasal and ocular discharge, and bleeding disorders such as nosebleeds or skin hemorrhages resembling small spots or bruising. In the subclinical phase, dogs may clear the organism, remain asymptomatic, or advance to the chronic form of ehrlichiosis. The chronic phase features symptoms like fever, weakness, weight loss, bleeding disorders, pale mucous membranes, eye abnormalities, and neurological issues. Infected dogs may become more susceptible to secondary infections. Blood tests often reveal significantly low platelet and white blood cell counts, as well as anemia. Unfortunately, this form of the disease is typically fatal, and attempts at treatment are often futile. Source: https://www.business.qld.gov.au/industries/farms-fishing-forestry/agriculture/biosecurity/animals/diseases/guide/canine-ehrlichiosis"
+                android:textSize="15dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:justificationMode="inter_word"/>
+
+            <TextView
+                android:id="@+id/Babesiosis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="2. Canine Babesiosis -caused by Babesia protozoal parasites transmitted through ticks, leads to anemia by invading mammalian red blood cells. Babesia species are widespread globally, with canine cases in North America mostly concentrated in the southern United States, although instances in other regions are increasing. This infection poses a significant threat to racing greyhounds and certain dog breeds like pit bull terriers. Primarily spread through tick bites, babesiosis may also transmit directly between animals, particularly when an infected dog with oral lesions bites another. : https://vcahospitals.com/know-your-pet/babesiosis-in-dogs"
+                android:textSize="15dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:justificationMode="inter_word"/>
+
+        </LinearLayout>
+
+
+
+
+
+    </androidx.core.widget.NestedScrollView>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,30 @@
+# ninja log v5
+6	968	729759091	CMakeFiles/yolov8ncnn.dir/ndkcamera.cpp.o	69ee7ba43fed3daa
+1	999	729759091	CMakeFiles/yolov8ncnn.dir/yolov8ncnn.cpp.o	19fc5f0fe879814d
+4	1190	729759091	CMakeFiles/yolov8ncnn.dir/yolo.cpp.o	17aaa514bf3734a1
+1190	1316	729759092	F:/detectick_app (2)/detectick_app/app/build/intermediates/cmake/debug/obj/arm64-v8a/libyolov8ncnn.so	c75aa9c21bf8760a
+3	1170	729759264	CMakeFiles/yolov8ncnn.dir/yolo.cpp.o	17aaa514bf3734a1
+1170	1305	729759264	F:/detectick_app (2)/detectick_app/app/build/intermediates/cmake/debug/obj/arm64-v8a/libyolov8ncnn.so	c75aa9c21bf8760a
+2	1159	729759333	CMakeFiles/yolov8ncnn.dir/yolo.cpp.o	17aaa514bf3734a1
+1159	1295	729759333	F:/detectick_app (2)/detectick_app/app/build/intermediates/cmake/debug/obj/arm64-v8a/libyolov8ncnn.so	c75aa9c21bf8760a
+3	1209	729759371	CMakeFiles/yolov8ncnn.dir/yolo.cpp.o	17aaa514bf3734a1
+1209	1344	729759371	F:/detectick_app (2)/detectick_app/app/build/intermediates/cmake/debug/obj/arm64-v8a/libyolov8ncnn.so	c75aa9c21bf8760a
+3	1179	729759391	CMakeFiles/yolov8ncnn.dir/yolo.cpp.o	17aaa514bf3734a1
+1179	1320	729759391	F:/detectick_app (2)/detectick_app/app/build/intermediates/cmake/debug/obj/arm64-v8a/libyolov8ncnn.so	c75aa9c21bf8760a
+4	2166	730095236	CMakeFiles/yolov8ncnn.dir/ndkcamera.cpp.o	69ee7ba43fed3daa
+2166	3768	730095237	F:/detectick_app (2)/detectick_app/app/build/intermediates/cmake/debug/obj/arm64-v8a/libyolov8ncnn.so	c75aa9c21bf8760a
+2	979	730095416	CMakeFiles/yolov8ncnn.dir/yolov8ncnn.cpp.o	19fc5f0fe879814d
+5	1234	730095417	CMakeFiles/yolov8ncnn.dir/yolo.cpp.o	17aaa514bf3734a1
+1234	1371	730095417	F:/detectick_app (2)/detectick_app/app/build/intermediates/cmake/debug/obj/arm64-v8a/libyolov8ncnn.so	c75aa9c21bf8760a
+4	1169	730095533	CMakeFiles/yolov8ncnn.dir/yolo.cpp.o	17aaa514bf3734a1
+1169	1317	730095533	F:/detectick_app (2)/detectick_app/app/build/intermediates/cmake/debug/obj/arm64-v8a/libyolov8ncnn.so	c75aa9c21bf8760a
+3	1112	730096046	CMakeFiles/yolov8ncnn.dir/yolo.cpp.o	17aaa514bf3734a1
+1113	1249	730096046	F:/detectick_app (2)/detectick_app/app/build/intermediates/cmake/debug/obj/arm64-v8a/libyolov8ncnn.so	c75aa9c21bf8760a
+3	2262	730109779	CMakeFiles/yolov8ncnn.dir/yolo.cpp.o	17aaa514bf3734a1
+2262	4122	730109781	F:/detectick_app (2)/detectick_app/app/build/intermediates/cmake/debug/obj/arm64-v8a/libyolov8ncnn.so	c75aa9c21bf8760a
+4	2090	730126182	CMakeFiles/yolov8ncnn.dir/yolo.cpp.o	17aaa514bf3734a1
+2090	2360	730126182	F:/detectick_app (2)/detectick_app/app/build/intermediates/cmake/debug/obj/arm64-v8a/libyolov8ncnn.so	c75aa9c21bf8760a
+2	1124	730126232	CMakeFiles/yolov8ncnn.dir/yolo.cpp.o	17aaa514bf3734a1
+1125	1255	730126232	F:/detectick_app (2)/detectick_app/app/build/intermediates/cmake/debug/obj/arm64-v8a/libyolov8ncnn.so	c75aa9c21bf8760a
+3	2701	730202156	CMakeFiles/yolov8ncnn.dir/yolo.cpp.o	17aaa514bf3734a1
+2701	3363	730202156	F:/detectick_app (2)/detectick_app/app/build/intermediates/cmake/debug/obj/arm64-v8a/libyolov8ncnn.so	c75aa9c21bf8760a

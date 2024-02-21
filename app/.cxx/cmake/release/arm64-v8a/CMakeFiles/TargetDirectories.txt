@@ -1,0 +1,3 @@
+F:/detectick_app (2)/detectick_app/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/yolov8ncnn.dir
+F:/detectick_app (2)/detectick_app/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/edit_cache.dir
+F:/detectick_app (2)/detectick_app/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/rebuild_cache.dir

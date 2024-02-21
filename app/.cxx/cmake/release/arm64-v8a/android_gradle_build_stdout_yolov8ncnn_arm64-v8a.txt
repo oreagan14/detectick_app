@@ -1,0 +1,18 @@
+ninja: Entering directory `F:\detectick_app (2)\detectick_app\app\.cxx\cmake\release\arm64-v8a'
+[1/4] Building CXX object CMakeFiles/yolov8ncnn.dir/yolov8ncnn.cpp.o
+[2/4] Building CXX object CMakeFiles/yolov8ncnn.dir/ndkcamera.cpp.o
+[3/4] Building CXX object CMakeFiles/yolov8ncnn.dir/yolo.cpp.o
+F:/detectick_app (2)/detectick_app/app/src/main/jni/yolo.cpp:383:46: warning: data argument not used by format string [-Wformat-extra-args]
+    sprintf(parampath, "best-sim-opt.param", modeltype);
+                       ~~~~~~~~~~~~~~~~~~~~  ^
+F:/detectick_app (2)/detectick_app/app/src/main/jni/yolo.cpp:384:44: warning: data argument not used by format string [-Wformat-extra-args]
+    sprintf(modelpath, "best-sim-opt.bin", modeltype);
+                       ~~~~~~~~~~~~~~~~~~  ^
+F:/detectick_app (2)/detectick_app/app/src/main/jni/yolo.cpp:421:46: warning: data argument not used by format string [-Wformat-extra-args]
+    sprintf(parampath, "best-sim-opt.param", modeltype);
+                       ~~~~~~~~~~~~~~~~~~~~  ^
+F:/detectick_app (2)/detectick_app/app/src/main/jni/yolo.cpp:422:44: warning: data argument not used by format string [-Wformat-extra-args]
+    sprintf(modelpath, "best-sim-opt.bin", modeltype);
+                       ~~~~~~~~~~~~~~~~~~  ^
+4 warnings generated.
+[4/4] Linking CXX shared library "F:\detectick_app (2)\detectick_app\app\build\intermediates\cmake\release\obj\arm64-v8a\libyolov8ncnn.so"

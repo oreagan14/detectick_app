@@ -1,0 +1,23 @@
+[
+  {
+    "level": "INFO",
+    "message": "Start JSON generation. Platform version: 24 min SDK version: arm64-v8a",
+    "file": "F:\\detectick_app (2)\\detectick_app\\app\\src\\main\\jni\\CMakeLists.txt",
+    "tag": "release|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "JSON \u0027F:\\detectick_app (2)\\detectick_app\\app\\.cxx\\cmake\\release\\arm64-v8a\\android_gradle_build.json\u0027 was up-to-date",
+    "file": "F:\\detectick_app (2)\\detectick_app\\app\\src\\main\\jni\\CMakeLists.txt",
+    "tag": "release|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "JSON generation completed without problems",
+    "file": "F:\\detectick_app (2)\\detectick_app\\app\\src\\main\\jni\\CMakeLists.txt",
+    "tag": "release|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  }
+]

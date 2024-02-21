@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@color/white">
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed"
+            app:contentScrim="@color/teal_200">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/rs_img"
+                android:scaleType="centerInside"
+                app:layout_collapseMode="parallax"/>
+
+
+            />
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                app:layout_collapseMode="pin"/>
+
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/rs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rhipicephalus Sanguineus"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:justificationMode="inter_word"/>
+
+            <TextView
+                android:id="@+id/rs_def"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rhipicephalus sanguineus, commonly called the brown dog tick, kennel tick, or pantropical dog tick, is a species of tick found worldwide, but more commonly in warmer climates. This species is unusual among ticks in that its entire lifecycle can be completed indoors. The brown dog tick is easily recognized by its reddish-brown color, elongated body shape, and hexagonal basis capituli (flat surface where mouthparts are attached). Adults are 2.28 to 3.18 mm in length and 1.11 to 1.68 mm in width. They do not have ornamentation on their backs."
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:justificationMode="inter_word"/>
+
+
+            <TextView
+                android:id="@+id/rs_disease_humans"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Disease that may transfer to humans:"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:justificationMode="inter_word"/>
+
+            <TextView
+                android:id="@+id/Rickettsia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Rickettsia - is commonly transmitted through vectors like ticks, body lice, mites, and fleas. Humans are often unintentional hosts in this transmission. This bacterium has a strong inclination to infect the vascular endothelial cells that line the small and medium-sized blood vessels throughout the body. This preference contributes to the systemic symptoms and elevated mortality observed in these infections. The invasion of endothelial cells sets off widespread inflammation, disrupts the protective barrier function, and alters the permeability of blood vessels throughout the entire body. As a consequence, those who are infected experience a range of symptoms, including fever, muscle pains, central nervous system manifestations like headaches and confusion, the appearance of rashes, and instability in the cardiovascular system. In severe cases, mortality can result from the significant impact of the infection on various bodily functions. Source: https://www.msdmanuals.com/home/infections/rickettsial-and-related-infections/overview-of-rickettsial-infections. Source: https://www.msdmanuals.com/home/infections/rickettsial-and-related-infections/overview-of-rickettsial-infections."
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:justificationMode="inter_word"/>
+
+            <TextView
+                android:id="@+id/rockymountain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. Rocky Mountain spotted fever - results from the bacteria Rickettsia rickettsii, which can exclusively survive within the cells of other organisms. Ticks acquire these bacteria by feeding on infected mammals, mainly rodents. Infected female ticks can transmit the bacteria to their offspring, and people usually contract the infection through bites from wood ticks or dog ticks. Direct person-to-person transmission is unlikely. Rickettsiae proliferate in the cells lining blood vessels, commonly affecting vessels in the skin, brain, lungs, heart, kidneys, liver, and spleen. Small infected blood vessels may experience blockage due to blood clots."
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:justificationMode="inter_word"/>
+
+            <TextView
+                android:id="@+id/rockymountain2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Typical symptoms include restlessness, insomnia, delirium, or in some cases, coma if the blood vessels in the brain are affected, abdominal pain, inflammation of the airways leading to pneumonitis and pneumonia, heart damage, anemia, severe low blood pressure, and, uncommonly, death in severe infections.Source: https://www.cdc.gov/rmsf/index.html.  "
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:justificationMode="inter_word"/>
+
+
+            <TextView
+                android:id="@+id/rs_disease_animals"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Disease that may transfer to animals:"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:justificationMode="inter_word"/>
+
+            <TextView
+                android:id="@+id/ehrlichiosis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="1. Canine ehrlichiosis - a tick-borne ailment in dogs, results from infection with the bacteria Ehrlichia canis. Dogs contract E. canis through bites from infected ticks, primarily the brown dog tick (Rhipicephalus sanguineus). This intracellular bacterial infection primarily targets immune system cells. Infected dogs may exhibit various clinical signs or, in some cases, remain asymptomatic. The disease progresses through three phases: acute, subclinical, and chronic."
+                android:textSize="15dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:justificationMode="inter_word"/>
+
+            <TextView
+                android:id="@+id/ehrlichiosis2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="During the acute phase, symptoms include fever, lethargy, enlarged lymph nodes, anorexia, weight loss, nasal and ocular discharge, and bleeding disorders such as nosebleeds or skin hemorrhages resembling small spots or bruising. In the subclinical phase, dogs may clear the organism, remain asymptomatic, or advance to the chronic form of ehrlichiosis. The chronic phase features symptoms like fever, weakness, weight loss, bleeding disorders, pale mucous membranes, eye abnormalities, and neurological issues. Infected dogs may become more susceptible to secondary infections. Blood tests often reveal significantly low platelet and white blood cell counts, as well as anemia. Unfortunately, this form of the disease is typically fatal, and attempts at treatment are often futile. Source: https://www.business.qld.gov.au/industries/farms-fishing-forestry/agriculture/biosecurity/animals/diseases/guide/canine-ehrlichiosis."
+                android:textSize="15dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:justificationMode="inter_word"/>
+
+            <TextView
+                android:id="@+id/Babesiosis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="2. Canine Babesiosis -caused by Babesia protozoal parasites transmitted through ticks, leads to anemia by invading mammalian red blood cells. Babesia species are widespread globally, with canine cases in North America mostly concentrated in the southern United States, although instances in other regions are increasing. This infection poses a significant threat to racing greyhounds and certain dog breeds like pit bull terriers. Primarily spread through tick bites, babesiosis may also transmit directly between animals, particularly when an infected dog with oral lesions bites another. Source: https://vcahospitals.com/know-your-pet/babesiosis-in-dogs"
+                android:textSize="15dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:justificationMode="inter_word"/>
+
+        </LinearLayout>
+
+
+
+
+
+    </androidx.core.widget.NestedScrollView>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

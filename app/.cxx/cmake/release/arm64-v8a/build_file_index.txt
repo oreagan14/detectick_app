@@ -1,0 +1,1 @@
+F:\detectick_app (2)\detectick_app\app\src\main\jni\CMakeLists.txt

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@color/white">
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed"
+            app:contentScrim="@color/teal_200">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/irs_img"
+                android:scaleType="centerInside"
+                app:layout_collapseMode="parallax"/>
+
+
+            />
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                app:layout_collapseMode="pin"/>
+
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/rs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ixodes Ricinus"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:justificationMode="inter_word"/>
+
+            <TextView
+                android:id="@+id/rs_def"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ixodes ricinus, the castor bean tick, is a chiefly European species of hard-bodied tick. It may reach a length of 11 mm (0.43 in) when engorged with a blood meal, and can transmit both bacterial and viral pathogens such as the causative agents of Lyme disease and tick-borne encephalitis."                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:justificationMode="inter_word"/>
+
+
+            <TextView
+                android:id="@+id/rs_disease_humans"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Disease that may transfer to humans:"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:justificationMode="inter_word"/>
+
+            <TextView
+                android:id="@+id/Anaplasmosis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Anaplasmosis - caused by the bacterium Anaplasma phagocytophilum, is a tickborne disease primarily transmitted to humans through infected tick bites. In rare cases, transmission has also occurred through blood transfusion. Early signs of anaplasmosis, occurring within the first five days of infection, are generally mild to moderate and may include symptoms like fever, chills, severe headache, muscle aches, nausea, vomiting, diarrhea, and loss of appetite. However, if treatment is delayed or underlying medical conditions are present, anaplasmosis can progress to severe illness. Timely intervention is crucial to reduce the risk of severe outcomes. Late-stage manifestations may involve respiratory failure, bleeding problems, organ failure, and, in extreme cases, death. Certain factors, such as delayed treatment, advanced age, and a weakened immune system (common among individuals undergoing specific cancer treatments, those with advanced HIV infection, recipients of organ transplants, or those taking certain medications), contribute to an increased risk of severe illness. Recognizing and addressing anaplasmosis promptly is essential to mitigate the potential for severe consequences. Source:  https://www.cdc.gov/anaplasmosis/symptoms/index.html"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:justificationMode="inter_word"/>
+
+            <TextView
+                android:id="@+id/helvetica"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. Rickettsia helvetica - belongs to the family of spotted fever rickettsiae (SFR) bacteria and is closely related to Rickettsia rickettsii, the causative agent of Rocky Mountain spotted fever. These bacteria are small, aerobic, gram-negative, intracellular organisms, commonly transmitted by ticks, lice, fleas, and mites. Infections with R. helvetica are thought to inflict damage on the central nervous system. The symptoms closely resemble those of Rocky Mountain spotted fever and other rickettsial infections, including fever, headache, and muscle pain. However, diagnosing R. helvetica infection poses a challenge due to the general nature of its symptoms, which can easily be mistaken for other illnesses. As a result, identifying and distinguishing this bacterial infection from other diseases can be complex.
+Source: https://www.bayarealyme.org/about-lyme/other-tick-borne-diseases/rickettsia-helvetica/"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:justificationMode="inter_word"/>
+
+            <TextView
+                android:id="@+id/Louping"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3.Louping ill virus - a rapid viral infection of the central nervous system (CNS) primarily impacting sheep and red grouse. However, it can also affect various other animals such as cattle, goats, horses, dogs, pigs, South American camelids, and even humans. Human infection may occur through tick bites or contact with materials or tools contaminated with the virus.in humans can lead to severe encephalomyelitis. The symptoms follow a biphasic pattern, with initial flu-like manifestations being replaced by signs of encephalitis 4–5 days later. Transmission occurs through the bite of infected ticks or contact with infected carcasses, sharp instruments, or aerosol. While natural transmission cases are rare, most reported instances involve laboratory workers. Individuals involved in diagnosing or researching this virus are advised to receive vaccination against tickborne encephalitis virus. Due to the potential of goats to excrete high virus titers in their milk, those kept for milk production in endemic areas must be vaccinated, emphasizing the need for the development of a new vaccine. Vigilance in vaccination is crucial to mitigate the risk of infection and transmission. Source : https://www.msdvetmanual.com/nervous-system/louping-ill/louping-ill-in-animals"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:justificationMode="inter_word"/>
+
+
+            <TextView
+                android:id="@+id/rs_disease_animals"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Disease that may transfer to animals:"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:justificationMode="inter_word"/>
+
+            <TextView
+                android:id="@+id/Anaplasmosis2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="1. Anaplasmosis - a tick-borne disease caused by the bacterium Anaplasma phagocytophilum, is transmitted through tick bites. The common form, A. phagocytophilum, typically results in lameness, joint pain, fever, lethargy, and anorexia in infected dogs. Symptoms usually last one to seven days, with some experiencing minimal or no symptoms. Less frequent signs include vomiting, diarrhea, coughing, and labored breathing, while neurological symptoms like seizures are rare.
+In contrast, infection with A. platys may lead to cyclic thrombocytopenia, marked by periodic decreases in platelet levels. Although clinical disease is usually mild, some dogs may exhibit bruising or bleeding, especially during initial stages when platelet counts are lowest. Anaplasmosis shares symptoms with Lyme disease, often occurring simultaneously due to common geographic locations and transmission through the same tick species. Source: https://vcahospitals.com/know-your-pet/anaplasmosis-in-dogs"
+                android:textSize="15dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:justificationMode="inter_word"/>
+
+            <TextView
+                android:id="@+id/Louping2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="Louping ill - is characterized as a swift viral infection affecting the central nervous system (CNS), with its primary targets being sheep and red grouse. Nevertheless, an array of other animals, including cattle, goats, horses, dogs, pigs, South American camelids, and even humans, can also be susceptible to the virus. Human infection typically stems from tick bites or exposure to materials and tools contaminated with the virus. Notably, Louping ill tends to manifest in animals that have accessed tick-infested pastures. The diverse clinical presentation underscores the need to distinguish it from other conditions that induce locomotor or neurological dysfunction. Source: https://www.msdvetmanual.com/nervous-system/louping-ill/louping-ill-in-animals"
+                android:textSize="15dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:justificationMode="inter_word"/>
+
+
+
+        </LinearLayout>
+
+
+
+
+
+    </androidx.core.widget.NestedScrollView>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

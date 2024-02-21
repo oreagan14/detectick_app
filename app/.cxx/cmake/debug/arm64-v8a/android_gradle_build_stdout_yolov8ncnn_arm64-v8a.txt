@@ -1,0 +1,2 @@
+ninja: Entering directory `F:\detectick_app (2)\detectick_app\app\.cxx\cmake\debug\arm64-v8a'
+ninja: no work to do.
