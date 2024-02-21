@@ -1,7 +1,5 @@
-# detectick_app
-A Computer Vision Approach in Identifying External Parasites Mobile Application
-
 # Detectick(Mobile App)
+A Computer Vision Approach in Identifying External Parasites Mobile Application
 
 # Installing Android Studio
 Note: It is recommended to use Android Studio in the course network disk, otherwise there may be version compatibility issues and you will be prompted to install the SDK during installation.
